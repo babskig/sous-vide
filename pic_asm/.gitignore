@@ -3,3 +3,4 @@
 *.err
 *.lst
 *.o
+*.map
