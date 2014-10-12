@@ -1,0 +1,136 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Oct 13 00:23:55 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x0003fc
+    .config_300001_MAIN.O    romdata   0x300001    program   0x000001
+    .config_300002_MAIN.O    romdata   0x300002    program   0x000001
+    .config_300003_MAIN.O    romdata   0x300003    program   0x000001
+    .config_300006_MAIN.O    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x000413      
+                            0x300001    0x300003      
+                            0x300006    0x300006      
+            1032 out of 24856 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 AddDelta   0x0000b2    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   AddOut   0x0000da    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+            BinToBcd16Bit   0x0003a8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But2   0x000076    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But3   0x000082    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But4   0x00008e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But5   0x00009a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But6   0x0000a6    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                CheckTemp   0x000224    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 Delay100   0x0002fe    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay20   0x00030a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 Delay255   0x0002f8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   Delay5   0x000310    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay50   0x000304    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay_0   0x00031c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  HighInt   0x000032    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     Init   0x00012c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 LCD_Char   0x00029c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_CharD   0x00029a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  LCD_Clr   0x0002f0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  LCD_Cmd   0x00027a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_CurOff   0x0002e8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_CurOn   0x0002e0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 LCD_Init   0x000248    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_Line1   0x0002c0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_Line1W   0x0002d0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_Line2   0x0002c8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_Line2W   0x0002d8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb1   0x0003ea    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb2   0x0003f4    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb3   0x0003fe    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb4   0x000408    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     Main   0x000206    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Pulse_e   0x000330    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                SendToDAC   0x0000f2    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                ShowError   0x00038e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 ShowTemp   0x00033e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                ShowTemp2   0x000364    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SpiWait1   0x000116    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SpiWait2   0x000120    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SubDelta   0x0000e0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   SubOut   0x0000f0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+             _.org_2_031E   0x00031e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                       d0   0x000312    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                       d1   0x000314    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  intRBIF   0x000050    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               intRBIFOut   0x000128    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                intTMR0IF   0x000040    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  HighInt   0x000032    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                intTMR0IF   0x000040    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  intRBIF   0x000050    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But2   0x000076    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But3   0x000082    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But4   0x00008e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But5   0x00009a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     But6   0x0000a6    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 AddDelta   0x0000b2    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   AddOut   0x0000da    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SubDelta   0x0000e0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   SubOut   0x0000f0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                SendToDAC   0x0000f2    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SpiWait1   0x000116    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 SpiWait2   0x000120    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               intRBIFOut   0x000128    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     Init   0x00012c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                     Main   0x000206    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                CheckTemp   0x000224    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 LCD_Init   0x000248    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  LCD_Cmd   0x00027a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_CharD   0x00029a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 LCD_Char   0x00029c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_Line1   0x0002c0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_Line2   0x0002c8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_Line1W   0x0002d0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_Line2W   0x0002d8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                LCD_CurOn   0x0002e0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+               LCD_CurOff   0x0002e8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  LCD_Clr   0x0002f0    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 Delay255   0x0002f8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 Delay100   0x0002fe    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay50   0x000304    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay20   0x00030a    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                   Delay5   0x000310    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                       d0   0x000312    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                       d1   0x000314    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Delay_0   0x00031c    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+             _.org_2_031E   0x00031e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                  Pulse_e   0x000330    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                 ShowTemp   0x00033e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                ShowTemp2   0x000364    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                ShowError   0x00038e    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+            BinToBcd16Bit   0x0003a8    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb1   0x0003ea    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb2   0x0003f4    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb3   0x0003fe    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+                      Lb4   0x000408    program     static C:\Users\gregory\git\sous-vide\pic_asm\main.asm
+
+
