@@ -1,0 +1,5 @@
+*.cof
+*.hex
+*.err
+*.lst
+*.o
