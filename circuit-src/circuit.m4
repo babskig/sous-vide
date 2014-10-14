@@ -1,4 +1,3 @@
-% circuit.m4
 .PS                            # Pic input begins with .PS
 cct_init                       # Read in macro definitions and set defaults
 
