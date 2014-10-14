@@ -1,4 +1,5 @@
 .PS
+include(pstricks.m4)
 cct_init(SIdefaults) # initialise and use metric unit
 linethick_(.5) # line thickness
 define(`dimen_', 10) # component size
