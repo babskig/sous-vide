@@ -1,4 +1,5 @@
 .PS
+include(pgf.m4)
 include(libcct.m4)
 cct_init(SIdefaults) # initialise and use metric unit
 linethick_(.5) # line thickness
