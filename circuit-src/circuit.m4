@@ -1,5 +1,5 @@
 .PS                            # Pic input begins with .PS
-include(svg.m4)
+include(pstricks.m4)
 cct_init                       # Read in macro definitions and set defaults
 
 # Usual defs...
@@ -8,7 +8,6 @@ hlf=dimen_/2;
 dim=dimen_;
 mm=1/25.4;
 pi=atan2(0,-1);
-
 
 {line right_ 3*dim; dot(at last line.center); arrow up_ hlf
   right_; "$V_\mathrm{CC}$" above_}
