@@ -1,9 +1,10 @@
 .PS                            # Pic input begins with .PS
+include(svg.m4)
 cct_init                       # Read in macro definitions and set defaults
 
 elen = 0.75                    # Variables are allowed; default units are inches
 Origin: Here                   # Position names are capitalized
-   source(up_ elen); llabel(-,v_s,+)
+   source(up_ elen, AC); llabel(-,220V,+)
    resistor(right_ elen);  rlabel(,R,)
    dot
    {                           # Save the current position and direction
