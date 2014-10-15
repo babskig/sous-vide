@@ -7,10 +7,10 @@ elen = dimen_*3/2
 Origin: Here
   # go up and draw the source and the in label
   source(up_ elen, AC); llabel(,V_{in},); dot; "in" above
-  line(right_ elen*1/2)
-  transformer(down_, , W)
+  line right_ elen
+  transformer(down_ elen,,,W,)
   # turn right and draw the diode
-  diode(right_ elen); llabel(,D,)
+  # diode(right_ elen); llabel(,D,)
   # draw the out label
   dot; "out" above
   { # save the current position
@@ -20,7 +20,7 @@ Origin: Here
     dot; "0" below
   }
   # draw a forward horizontal line
-  line right_ elen*1/2
+  line right_ elen
   # go down and draw the resistor
   resistor(down_ Here.y-Origin.y,,E); llabel(,R_{load},)
   # draw a backward horizontal segment
