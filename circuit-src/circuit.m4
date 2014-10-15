@@ -7,6 +7,8 @@ elen = dimen_*3/2
 Origin: Here
   # go up and draw the source and the in label
   source(up_ elen, AC); llabel(,V_{in},); dot; "in" above
+  line(right_ elen*1/2)
+  transformer(down_, , W)
   # turn right and draw the diode
   diode(right_ elen); llabel(,D,)
   # draw the out label
