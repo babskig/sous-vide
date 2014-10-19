@@ -79,7 +79,7 @@ E2: S2+(blen,blen)
   line from S2 to T2.S2
   line from W2 to W2+(0,-elen)
 Ground5: Here
-  capacitor(down_ elen from E2,C); llabel(,2200 \mu,); dot
+  capacitor(down_ elen from E2,C); llabel(,4700 \mu,); dot
 
 Pos5:  nterm("7805",1,,1,1,,N) with .W1 at E2
   capacitor(down_ elen from Pos5.E1,C); llabel(,10 \mu,); dot
