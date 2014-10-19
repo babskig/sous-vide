@@ -48,8 +48,8 @@ Pos:  nterm("7809",1,,1,1,,N) with .W1 at Here
   capacitor(down_ elen,C); llabel(,10 \mu,); dot
 
   line right_ elen from Pos.E1; dot
-  capacitor(down_ elen*2,); llabel(,0.1 \mu,); dot
-  capacitor(down_ elen,); llabel(,0.1 \mu,); dot
+  capacitor(down_ elen*2,); llabel(,0.2 \mu,); dot
+  capacitor(down_ elen,); llabel(,0.2 \mu,); dot
 
   dot(at Neg.E1+(2*elen,0))
   diode(up_ elen); dot
@@ -65,7 +65,7 @@ Pos5:  nterm("7805",1,,1,1,,N) with .W1 at Here
   line from Pos5.S1 to (Pos5.S1,GroundOrigin);dot
   dot(at Pos5.E1)
   line right_ elen; dot
-  { capacitor(down_ elen*4/3,); llabel(,0.1 \mu
+  { capacitor(down_ elen*4/3,); llabel(,0.2 \mu
 ,); dot }
   line right_ elen; dot
   dot(at (Here,GroundOrigin))
